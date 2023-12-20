@@ -16,5 +16,5 @@ import feign.RequestLine;
 public interface ApiJobs {
 
     @RequestLine("GET /character")
-    List<Character> jobs(@QueryMap Map<String,Object>queryMap);
+    List<Character> character(@QueryMap Map<String,Object>queryMap);
 }

@@ -9,7 +9,7 @@ version '0.1.0'
 sourceCompatibility = 1.8
 
 application {
-   mainClassName = "com.platzi.jobsearch.JobSearch"
+   mainClassName = "com.platzi.jobsearch.CharacterSearch"
 }
 
 repositories {
